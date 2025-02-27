@@ -34,13 +34,13 @@ header {
     height: 3rem;
 }
 
-.logo { 
+/* .logo { 
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     height: 100%;
-}
+} */
 
 /* DIVS STYLING */
 /* TOYOTA LOGO DIV */
@@ -48,18 +48,18 @@ header {
     height: 100%;
 }
 /* TOYOTA LOGO STYLING */
-.logo .toyota-logo {
+/* .logo .toyota-logo {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-basis: 5%;
-}
+} */
 
-.logo .toyota-logo img {
+/* .logo .toyota-logo img {
     background-repeat: no-repeat;
     width: 80%;
     height: 80%;
-}
+} */
 
 /* TOYOTA TITLE */
 .logo .logo-title {
