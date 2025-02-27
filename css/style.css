@@ -1,0 +1,215 @@
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header { 
+    background-color: #4eaf50;
+    width: 100%;
+    height: 3rem;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25rem;
+    height: 100%;
+    padding: 5px;
+}
+
+.logo .toyota-logo img {
+    background-repeat: no-repeat;
+    width: 3.5rem;
+}
+
+.logo .logo-title p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+} */
+header { 
+    background-color: #4eaf50;
+    width: 100%;
+    height: 3rem;
+}
+
+.logo { 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+}
+
+/* DIVS STYLING */
+/* TOYOTA LOGO DIV */
+.logo div {
+    height: 100%;
+}
+/* TOYOTA LOGO STYLING */
+.logo .toyota-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 5%;
+}
+
+.logo .toyota-logo img {
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 80%;
+}
+
+/* TOYOTA TITLE */
+.logo .logo-title {
+    flex-basis: 80%;
+    margin-left: 10px;
+    /* padding-left: 10px; */
+}
+
+.logo .logo-title p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* LOGIN BODY CONTENT */
+.login-body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.login-body .label {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    width: 50rem;
+    height: 3rem;
+}
+
+.login-body .label p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+
+.login-body .login {
+    border: 2px solid #4eaf50;
+    width: 22rem;
+    height: 12rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.login-body .login .login-desc{
+    background-color: #4eaf50;
+    color: white;
+    width: 100%;
+    height: 2rem;
+    padding-left: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.login-body .login .login-form {
+    width: 100%;
+    height: 10rem;
+    padding: 10px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.login-body .login .login-form form {
+    width: 100%;
+    height: 100%;
+    padding-right: 10px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ;
+}
+
+.login-body form div {
+    width: 100%;
+    height: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-body form div label {
+    width: 6rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.login-body form div input {
+    width: 14rem;
+    height: 70%;
+    font-size: 1rem;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login-body form .submit {
+    width: 100%;
+    height: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-body form .submit button {
+    width: 25%;
+    height: 100%;
+    background-color: #4eaf50;
+    border-color: white;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.login-body form .submit button a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.login-body form .submit button:hover {
+    width: 25%;
+    height: 100%;
+    background-color: #8fbc90;
+    border-color: white;
+    border-radius: 5px;
+}
+
+
+
